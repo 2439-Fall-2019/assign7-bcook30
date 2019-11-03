@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>First Mobile Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Form Demo</h1>
+        </div>
+            <label for="test">Test:</label>
+            <input type="checkbox" data-role="flipswitch" name="test" id="test">
+
+            <label for="gender"> Gender:</label>
+            <input type="checkbox" data-role="flipswitch" name="gender" id="gender"
+            data-off-text="Male" data-on-text="Female" data-wrapper-class="custom-size-flipswitch">
+        <input type="submit" name="submit" value="Send" />
+        </form>
+    </div>
+</body>
+
+</html>

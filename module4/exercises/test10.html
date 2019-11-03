@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>First Mobile Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Form Demo</h1>
+        </div>
+        <div data-role="fieldcontain">
+            <label for="coolness">Coolness: </label>
+            <input type="range" name="coolness" id="coolness" min="0" max="100" value="22">
+        </div>
+        <div data-role="fieldcontain">
+          <label for="something">Something: </label>
+            <input type="range" name="something" id="something" min="0" max="100" value="22" data-highlight="true">
+        </div>
+        <div data-role="rangeslider">
+            <label for="coolnessLow">Cool Range:</label>
+            <input type="range" name="coolnessLow" id="coolnessLow" min="0" max="100" value="22">
+            <label for="coolnessHigh">Cool Range:</label>
+            <input type="range" name="coolnessHigh" id="coolnessHigh" min="0" max="100" value="82">
+        </div>
+        </div>
+</body>
+
+</html>

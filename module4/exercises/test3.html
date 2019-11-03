@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>First Mobile Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+
+<body>
+  <div data-role="page">
+  <div data-role="header">
+    <h1>Form Demo</h1>
+  </div>
+  <div drole="main" class="ui-content">
+    <form action="echo.html" method="post">
+     <fieldset data-role="controlgroup">
+       <legend>Favorite Movie</legend>
+       <input type="radio" name="favoritemovie" id="favoritemovie1" value="Star Wars">
+       <label for="favoritemovie1">Star Wars</label>
+       <input type="radio" name="favoritemovie" id="favoritemovie2" value="Vanilla Sky">
+       <label for="favoritemovie2">Vanilla Sky</label>
+       <input type="radio" name="favoritemovie" id="favoritemovie3" value="Inception">
+       <label for="favoritemovie3">Inception</label>
+     </fieldset>
+     <fieldset data-role="controlgroup">
+       <legend>Favorite Colors:</legend>
+       <input type="checkbox" name="favoritecolor" id="favoritecolor1" value="Blue">
+       <label for="favoritecolor1">Blue</label>
+       <input type="checkbox" name="favoritecolor" id="favoritecolor2" value="Red">
+       <label for="favoritecolor2">Red</label>
+       <input type="checkbox" name="favoritecolor" id="favoritecolor3" value="Green">
+       <label for="favoritecolor3">Green</label>
+     </fieldset>
+        <input type="submit" name="submit" value="Send" />
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+
+</html>

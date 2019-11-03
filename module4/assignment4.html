@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>First Form</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="_css/themes/ctheme1.css">
+  <link rel="stylesheet" href="_css/themes/jquery.mobile.icons.min.css">
+
+
+</head>
+
+<body>
+  <!-- Benjamin Cook
+     assignment?.html
+     INFO2439
+     Thoendel
+     9/4/2019
+-->
+  <div data-role="header">
+    <a data-ajax="false" href="../index.html" data-icon="home" rel="external">Home</a>
+    <h1>Ben Cook</h1>
+  </div>
+
+  <div data-role="content">
+    <form action="http://lolberding.portfolios.mccinfo.net/info_survey/bistrosurvey_insert.php" method="post">
+      <form method="post" action="https://www.mccinfo.net/webresources/ogi-bin/formmail.asp">
+        <input name="recipient" type="hidden" value="bcook30@mail.mccneb.edu">
+        <header>
+          <h1>Assignment #4</h1>
+          <h2>Bistro Customer Survey</h2>
+        </header>
+        <div class="ui-field-contain">
+          <label for="meal_rate">How would you rate your meal today?</label>
+          <select name="meal_rate" id="meal_rate">
+            <option value="1-Poor">1-Poor</option>
+            <option value="2-Needs Work">2-Needs Work</option>
+            <option value="3-Fair">3-Fair</option>
+            <option value="4-Good">4-Good</option>
+            <option value="5-Excellent">5-Excellent</option>
+          </select>
+        </div>
+
+        <div class="ui-field-contain">
+          <label for="service_rate">How would you rate your service today?</label>
+          <select name="service_rate" id="service_rate">
+            <option value="1-Poor">1-Poor</option>
+            <option value="2-Needs Work">2-Needs Work</option>
+            <option value="3-Fair">3-Fair</option>
+            <option value="4-Good">4-Good</option>
+            <option value="5-Excellent">5-Excellent</option>
+          </select>
+        </div>
+
+        <div class="ui-field-contain">
+          <label for="overall_exp">How would you rate your overall experience today?</label>
+          <select name="overall_exp" id="overall_exp">
+            <option value="1-Poor">1-Poor</option>
+            <option value="2-Needs Work">2-Needs Work</option>
+            <option value="3-Fair">3-Fair</option>
+            <option value="4-Good">4-Good</option>
+            <option value="5-Excellent">5-Excellent</option>
+          </select>
+        </div>
+
+        <fieldset data-role="controlgroup" data-type="horizontal">
+          <legend>Would you recommend this restaurant to a friend?</legend>
+          <input type="radio" name="recommend_rest" id="yes" value="Yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="recommend_rest" id="no" value="No">
+          <label for="no">No</label>
+        </fieldset>
+
+        <div class="ui-field-contain">
+          <label for="bname">Name:</label>
+          <input type="text" name="bname" id="bname" value="" />
+        </div>
+
+        <div class="ui-field-contain">
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" value="" />
+        </div>
+      </form>
+  </div>
+
+  <div class="ui-field-contain">
+    <input type="submit" name="submit" value="Send" />
+  </div>
+
+  <div data-role="footer">
+    <h4>Created by <a href="mailto:bcook30@mail.mccneb.edu">Benjamin Cook</a></h4>
+  </div>
+</body>
+
+</html>

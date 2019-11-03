@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>First Mobile Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+<!-- Benjamin Cook
+     assignment?.html
+     INFO2439
+     Thoendel
+     9/4/2019
+-->
+
+<div data-role="page" id="first">
+
+
+	<div data-role="header">
+		<h1>Test Filter</h1>
+	</div>
+	
+	<div role="main" class="ui-content">
+
+		<form>
+		<input type="text" id="myFilter" placeholder="Type to filter.">
+		</form>
+		
+		<ul data-role="listview" data-filter="true" data-input="#myFilter"
+		data-inset="true">
+			<li>Apples</li>
+			<li>Bananas</li>
+			<li>Cherries</li>
+			<li>Donuts</li>
+			<li>Eagles</li>
+			<li>Foxes</li>
+			<li>George</li>
+			<li>Harry</li>
+			<li>Ingrid</li>
+			<li>Joker</li>
+			<li>Kettle</li>
+		</ul>
+		
+	</div>
+
+</div>
+
+</body>
+</html>

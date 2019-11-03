@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment 5</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="themes/ctheme1.css">
+    <link rel="stylesheet" href="_css/a5.css">
+
+</head>
+
+<body>
+    <!-- Benjamin Cook
+     assignment?.html
+     INFO2439
+     Thoendel
+     10/17/2019
+-->
+    <input name="recipient" type="hidden" value="bcook30@mail.mccneb.edu">
+    <div data-role="page" id="homePage">
+        <div data-role="header">
+            <a data-ajax="false" href="../index.html" data-icon="home" rel="external">Home</a>
+            <p style="text-align:center;"><img src="photos/sagelogo.png" alt="Sage Bistro Logo"></p>
+        </div>
+        <header>
+            <h2>Assignment #5</h2>
+            <h3>Sage Bistro Static Google Map</h3>
+        </header>
+        <div class="ui-grid-a ui-content">
+            <div class="ui-block-a">
+                <p>
+                    Sage Student Bistro is located at the Pegler Center for the Institute for the Culinary Arts at 32nd
+                    Street
+                    and Sorensen Parkway, on the south end of the Metropolitan Community College Fort Omaha Campus.
+                </p>
+            </div>
+            <div class="ui-block-b">
+                <p>
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=5730%20N%2030th%20St%2C%20Omaha&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></a></div>
+                </p>
+
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: center;
+                        height: 800px;
+                        width: 800px;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 800px;
+                        width: 600px;
+                    }
+                </style>
+            </div>
+            <div data-role="footer" data-position="fixed" class="footer">Contact: <a
+                    href="mailto:bcook30@mail.mccneb.edu" class="ui-btn-active">Benjamin Cook</a></div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
