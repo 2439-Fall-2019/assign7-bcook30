@@ -16,7 +16,7 @@
   <author href="https://build.phonegap.com" email="support@phonegap.com">
       Ben Cook
   </author>
-  <icon src="_icons/144x144" />
-  
+  <icon src="_icons/144x144.png" />
+
 
 </widget>
